@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Unix Cheatsheet</title>
+<style>
+h1 {
+	font-size: 300%;
+	text-align: center;
+	vertical-align: central;
+}
+h2{
+	font-family: courier;
+	vertical-align: central;
+}
+table {	
+	border: 1px solid red;
+	background-image: url(http://img10.deviantart.net/e984/i/2015/287/c/5/red_dragon_by_sandara-d6hpycs.jpg);
+	vertical-align: central;
+	border-collapse: collapse;
+}
+p{
+	font-weight: 900;
+	display: inline;
+}
+tr:hover{
+	background-color: yellow;
+}
+th, td{
+	border: 1px solid red;
+}
+th:first-of-type{
+	background-color: orange;
+}
+td:nth-child(1) {
+    background: red;
+}
+a:visited{
+	color: chartreuse;
+}
+</style>
+</head>
+
+<body>
+	<img src="http://icorporatetrainings.com/wp-content/uploads/2015/08/unix-linux-training-chennai-bangalore.jpg" alt="">
+	<h1>Welcome!</h1>
+	<h2>Unix Dictionary</h2>
+	<p><span style="color:blue">This website is for knowing linux commands.</span></p>
+<table>
+	<tr>
+		<th><code>Command Name</code></th>
+		<th><code>Description of Command</code></th>
+		<th><code>Example</code></th>
+	</tr>
+	<tr>
+		<td>ls</td>
+		<td>lists the contents of the directory</td>
+		<td>ls -l</td>
+	</tr>
+	<tr>
+		<td>make</td>
+		<td>Regenerates a new program</td>
+		<td>make word</td>
+	</tr>
+	<tr>
+		<td>man</td>
+		<td>Opens the manual for Unix commands</td>
+		<td>man ls</td>
+	</tr>
+	<tr>
+		<td>mkdir</td>
+		<td>Makes a new directory</td>
+		<td>mkdir myDir</td>
+	</tr>
+	<tr>
+		<td>type</td>
+		<td>Tells how a command is used</td>
+		<td>type ls</td>
+	</tr>
+</table>
+<a href="https://en.wikipedia.org/wiki/List_of_Unix_commands">Reference for all commands.</a>
+</body>
+</html>
